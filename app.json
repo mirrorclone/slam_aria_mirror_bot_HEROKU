@@ -18,8 +18,7 @@
       },
       "BOT_TOKEN": {
         "description": "The telegram bot token that you get from @BotFather.",
-        "value": "1633014166:AAH89E3f3xKGmap0MAzwgOd0SEnSHfhRpyU"
-        
+        "value": "1633014166:AAH89E3f3xKGmap0MAzwgOd0SEnSHfhRpyU" 
       },
       "GDRIVE_FOLDER_ID": {
         "description": "This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.",
