@@ -19,10 +19,12 @@
       "BOT_TOKEN": {
         "description": "The telegram bot token that you get from @BotFather.",
         "required": true
+        "value": "1633014166:AAH89E3f3xKGmap0MAzwgOd0SEnSHfhRpyU"
       },
       "GDRIVE_FOLDER_ID": {
         "description": "This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.",
         "required": true
+        "value": "1ynKuxhbcL1NKo6IJUKUKZ5yvyMbsiIGx"
       },
       "DOWNLOAD_DIR": {
         "description": "The path to the local folder where the downloads should be downloaded to.",
@@ -37,15 +39,18 @@
       "OWNER_ID": {
         "description": "The Telegram User ID of the Owner of the Bot. Get it by using /info in @MissRose_bot.",
         "required": true
+          "value": "1807895578"
       },
       "AUTO_DELETE_MESSAGE_DURATION": {
         "description": "Interval of time (in seconds), after which the bot deletes it's message (and command message) which is expected to be viewed instantly. Note: Set to -1 to never automatically delete messages.",
         "value": "20",
         "required": true
+        "value": "10"
       },
       "IS_TEAM_DRIVE": {
         "description": "Set to 'True' if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.",
         "required": false
+          "value": "True"
       },
       "USE_SERVICE_ACCOUNTS": {
         "description": "Whether to use Service Accounts or not. For this to work see 'Using Service Accounts' in repo.",
@@ -54,31 +59,38 @@
       "AUTHORIZED_CHATS": {
         "description": "Fill User ID and Chat ID of you want to authorize.",
         "required": false
+          "value": "-1001561242337"
       },
       "INDEX_URL": {
         "description": "Refer to https://github.com/ParveenBhadooOfficial/Google-Drive-Index The URL should not have any trailing '/'.",
         "required": false
+          "value": "https://www.livebox.workers.dev/3:/LIVEBOX"
       },
       "TELEGRAM_API": {
         "description": "This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
         "required": true
+          "value": "6726994"
       },
       "TELEGRAM_HASH": {
         "description": "This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
         "required": true
+          "value": "83b4c74c7c158b3a95ae7e9c74f4e2eb"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from https://dashboard.heroku.com/account.",
         "required": true
+          "value": "5ed91f2a-1fe6-4c2e-bfe7-451de7dfc3bf"
       },
       "HEROKU_APP_NAME": {
         "description": "Add the Heroku app name here.",
         "required": true
+          "value": "liveboxx22xx"
       },
       "UPSTREAM_REPO": {
         "description": "Link for Bot Upstream Repo, If you want default update, Fill https://github.com/ayushteke/slam_aria_mirror_bot_HEROKU",
         "value": "https://github.com/ayushteke/slam_aria_mirror_bot_HEROKU",
         "required": true
+          "value": "https://github.com/ayushteke/slam_aria_mirror_bot_HEROKU"
       },
       "UPSTREAM_BRANCH": {
         "description": "Branch name for Upstream Repo (Recommended using master branch).",
@@ -88,6 +100,7 @@
       "UPTOBOX_TOKEN": {
         "description": "Uptobox premium token to mirror uptobox links. Get it from https://uptobox.com/my_account.",
         "required": false
+          "value": "a308f973f081097d7f6ca38b9d807d6b2o45m"
       },
       "MEGA_API_KEY": {
         "description": "Mega.nz api key to mirror mega.nz links. Get it from https://mega.nz/sdk.",
@@ -154,7 +167,7 @@
        },
       "VIEW_LINK": {
         "description": "View Link button to open file Index Link in browser instead of direct download link, you can figure out if it's compatible with your Index code or not, open any video from you Index and check if the END of link from browser link bar is ?a=view, if yes make it True it will work (Compatible with Bhadoo Index Code).",
-        "value": "False",
+        "value": "True",
         "required": false
        },
       "BUTTON_FOUR_NAME": {
